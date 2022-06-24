@@ -11,7 +11,7 @@ def easy():
             count = count+1
             if inputed_number == randomnumber:
                 print(f"Congralutions You guessed number in {count} times")
-                exit()
+                exit
             elif(inputed_number < randomnumber):
                 print("Please guess higher number")
             elif(inputed_number > randomnumber):
